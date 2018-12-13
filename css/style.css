@@ -138,7 +138,7 @@ p {
 
 /*--------------------- Footer ---------------------*/
 .footer__box {
-  background-color: #3d4962;
+  background-color: #333333;
   padding: 45px 0px 45px 0px; }
 
 .logo__gray {
@@ -160,7 +160,7 @@ p {
 
 @media screen and (max-width: 320px) {
   .line__footer__two {
-    border-bottom: 1px #6f81a7 solid;
+    border-bottom: 1px #888888 solid;
     width: 100%; } }
 
 .logo__gray__text {
@@ -172,42 +172,47 @@ p {
       font-size: 14px; } }
 
 .footer__text__left {
-  color: #6f81a7;
+  color: #888888;
   font-size: 12px;
   margin-bottom: 25px;
   font-weight: 500; }
 
 .line__footer {
-  border-bottom: 1px #6f81a7 solid;
+  border-bottom: 1px #888888 solid;
   margin-bottom: 25px;
   width: 100%; }
 
+.menu__footer {
+  display: flex; }
+  @media screen and (max-width: 1400px) {
+    .menu__footer {
+      display: flex;
+      flex-direction: column; } }
+
 .menu__footer li {
   color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-  padding: 0px 10px;
-  line-height: 3; }
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 15px; }
   @media screen and (max-width: 1400px) {
     .menu__footer li {
-      padding: 10px 0px 0px 0px;
-      line-height: 2; } }
+      padding: 10px 0px 0px 0px; } }
 
 .menu__footer li:hover {
   color: #e0e0e0; }
 
 .basement__footer {
-  background-color: #323e57;
+  background-color: #414141;
   padding: 15px 0px 15px 0px; }
 
 .basement__text {
-  color: #6f81a7;
+  color: #888888;
   font-size: 12px;
   font-weight: 400; }
 
 .political__konf {
   font-size: 12px;
-  color: #6f81a7;
+  color: #888888;
   font-weight: 500; }
 
 .naks__media__logo {
@@ -222,7 +227,13 @@ p {
 .razrabotano__v__naks__media {
   font-size: 12px;
   font-weight: 500;
-  color: #6f81a7; }
+  color: #888888; }
+
+.number__footer__two {
+  margin-right: 15px; }
+  @media screen and (max-width: 1199px) {
+    .number__footer__two {
+      margin: 0; } }
 
 .footer__number {
   color: #fff;
@@ -232,15 +243,15 @@ p {
 
 .footer__mail {
   font-size: 16px;
-  color: #6f81a7;
+  color: #888888;
   margin-bottom: 15px; }
   .footer__mail a {
-    color: #6f81a7;
-    border-bottom: 1px solid #6f81a7; }
+    color: #888888;
+    border-bottom: 1px solid #888888; }
 
 .footer__adres {
   font-size: 12px;
-  color: #6f81a7;
+  color: #888888;
   font-weight: 500;
   margin-bottom: 10px; }
 
@@ -248,7 +259,7 @@ p {
   margin-bottom: 25px; }
 
 .adres__on__map a {
-  color: #8fa0c4;
+  color: #888888;
   font-size: 14px;
   font-weight: 500;
   text-decoration: underline; }
@@ -259,7 +270,7 @@ p {
   border-radius: 3px;
   font-size: 14px;
   font-weight: 500;
-  background-color: #8a9abd;
+  background-color: #5ba4dd;
   padding: 0px 15px;
   margin-bottom: 25px; }
 
@@ -270,11 +281,11 @@ p {
   white-space: nowrap; }
 
 .button__zayavka__footer:hover {
-  background-color: #788aaf;
+  background-color: #539fd8;
   color: #fff; }
 
 .button__zayavka__footer:active {
-  background-color: #61759c;
+  background-color: #4a94cc;
   color: #fff; }
 
 /*--------------------- БГ + информация ---------------------*/
@@ -350,7 +361,8 @@ p {
   padding: 10px 25px; }
   @media screen and (max-width: 425px) {
     .button__zayavka__online {
-      margin-bottom: 15px; } }
+      margin-bottom: 15px;
+      width: 100%; } }
 
 .button__zayavka__online:hover {
   background-color: #438fc9;
@@ -392,13 +404,20 @@ p {
 .info__text__item {
   font-size: 18px;
   font-weight: 300;
-  color: #fff;
+  color: #d8d8d8;
   line-height: 2.5;
-  padding: 0px 15px; }
+  padding: 0px 15px;
+  border-left: 3px solid #fff; }
   @media screen and (max-width: 640px) {
     .info__text__item {
       font-size: 14px;
       line-height: 2; } }
+
+.info__text__item:hover {
+  color: #fff;
+  border-left: 3px solid #5ba4dd;
+  margin: 0;
+  transition: 0.2s; }
 
 .box__serv a {
   font-size: 20px;
@@ -442,10 +461,10 @@ p {
   color: #fff; }
 
 .section__header {
-  font-size: 30px;
-  font-weight: 200;
+  font-size: 26px;
+  font-weight: 400;
   color: #000;
-  margin-bottom: 15px; }
+  margin-bottom: 25px; }
 
 .section__header__two {
   font-size: 30px;
@@ -453,10 +472,61 @@ p {
   color: #000;
   margin-bottom: 15px; }
 
-.line__section {
-  border-bottom: 1px solid #000;
-  margin-bottom: 50px;
-  width: 50px; }
+.header__attestation {
+  font-size: 26px;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 45px; }
+
+.box__service {
+  background-color: #363a3f;
+  padding: 45px 35px;
+  margin-bottom: 25px;
+  border-bottom: 5px solid transparent; }
+  .box__service:hover {
+    background-color: #4d5258;
+    transition: 0.3s;
+    border-bottom: 5px solid #4d9ad4; }
+
+.box__serv a {
+  font-size: 20px;
+  color: #fff; }
+
+.news__naks__tag__maine {
+  font-size: 14px;
+  color: #313131;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  border-radius: 55px;
+  padding: 5px 15px; }
+
+.date__news__maine {
+  font-size: 14px;
+  color: #313131;
+  padding: 5px 15px; }
+
+.box__news__content__main {
+  padding: 30px;
+  background-color: #fcfcfc;
+  margin-bottom: 30px;
+  border-radius: 0px 0px 15px 15px; }
+
+.text__content__news__main {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000; }
+  .text__content__news__main:hover {
+    color: #3e5e8d; }
+
+.text__small {
+  font-size: 14px;
+  font-weight: 300;
+  color: #8d8d8d;
+  margin-top: 15px; }
+
+.box__news__content__main:hover {
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09); }
 
 /*--------------------- Блок 4 Инфо-блок ---------------------*/
 .info__block {
@@ -492,7 +562,7 @@ p {
 
 .ask__box {
   padding: 35px;
-  background: #3c4e77; }
+  background: #333333; }
   @media screen and (max-width: 1199px) {
     .ask__box {
       margin-bottom: 25px; } }
@@ -505,17 +575,17 @@ p {
   width: 100%; }
 
 .feedback__text {
-  border-bottom: 1px solid #7191d7;
-  color: #7191d7;
+  border-bottom: 1px solid #5ba4dd;
+  color: #5ba4dd;
   font-weight: 550; }
 
 .feedback__text:hover {
-  color: #587ac2; }
+  color: #6db5ec; }
 
 /*--------------------- Блок 4 Search work ---------------------*/
 .search__work__box {
   padding: 35px;
-  background: rgba(59, 77, 118, 0.8); }
+  background: rgba(51, 51, 51, 0.8); }
   @media screen and (max-width: 1199px) {
     .search__work__box {
       margin-bottom: 25px; } }
@@ -587,7 +657,7 @@ p {
 /*--------------------- Блок 4 Journal ---------------------*/
 .journal__box {
   padding: 35px;
-  background: rgba(59, 77, 118, 0.8); }
+  background: rgba(51, 51, 51, 0.8); }
   @media screen and (max-width: 1199px) {
     .journal__box {
       margin-bottom: 25px; } }
