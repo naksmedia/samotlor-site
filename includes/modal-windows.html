@@ -4,20 +4,20 @@
             <div class="modal-content">
                 
                     <div class="modal-header">
-                        <h5 class="modal-title mb-3" id="">Оставить заявку</h5>
+                        <h5 class="modal-title" id="">Оставить заявку <br> на аттестацию</h5>
                         <div class="row">
-                            <div class="col col-sm-10 col-xl-6">
+                            <div class="col col-sm-10 col-xl-8">
                                 <p class="font-text-thin">Выберите вид заявки, введите свои контактные данные, и наш
-                                    специалист свяжется с вами в ближайшее время</p>
+                                    специалист свяжется с вами <br> в ближайшее время</p>
                             </div>
                         </div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                                <span aria-hidden="true"><img src="/img/close.png" alt=""></span>
                         </button>
                     </div>            
     
                 <form>
-                    <div class="modal-body px-3 px-sm-5">
+                    <div class="modal-body">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -28,7 +28,7 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="" class="col-form-label col-form-label-sm">Номер телефона</label>
-                                    <input type="text" class="form-control form-control-sm" id="" required="">
+                                    <input type="text" class="form-control form-control-sm" placeholder=""  type="text" id="phone" required="">
                                 </div>
                             </div>
                             <div class="col">
@@ -36,24 +36,23 @@
                                     <label for="" class="col-form-label col-form-label-sm">Вид заявки</label>
                                     <div class="choose__item">
                                         <ul class="items">
-                                            <li data-selected="0" data-guid="1">Аттестация сварщика</li>
-                                            <li data-selected="0" data-guid="2">Аттестация специалистов сварочного производства</li>
-                                            <li data-selected="0" data-guid="3">Аттестация сварочного оборудования</li>
-                                            <li data-selected="0" data-guid="4">Аттестация технологий сварки (наплавки)</li>                        
+                                            <li data-selected="0" data-guid="2">Аттестация Сварщиков</li>
+                                            <li data-selected="0" data-guid="1">Аттестация Специалиста Сварочного Производства</li>
+                                            <li data-selected="0" data-guid="3">ЦОК - Центр Оценки Квалификаций</li>                                                                    
                                           </ul> 
                                     </div>
-                                </div>
+                                </div>                                                               
                             </div>
-                        </div>
-    
-                        <div class="custom-control-checkbox custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="soglasie" required="">
-                            <label class="custom-control-label" for="soglasie"><small>Я даю <a href="#"
-                                        target="_blank">согласие на обработку персональных данных</a></small></label>
-                        </div>
+                            
+                        </div>    
+                        <div class="custom-control-checkbox custom-checkbox d-inline-block">
+                                <input type="checkbox" class="custom-control-input" id="soglasie" required="">
+                                <label class="custom-control-label" for="soglasie"><small>Я даю <a href="#">согласие на обработку персональных данных</a></small></label>
+                            </div>
                     </div>
-                    <div class="modal-footer pb-5 px-3 px-sm-5">
-                        <button type="submit" class="button__to__send_zayavka__formmodal">Отправить заявку</button>
+                    <div class="modal-footer">
+                        <button type="submit" class="button__to__send_zayavka__formmodal d-inline-block">Отправить заявку</button>
+                           
                     </div>
                 </form>
             </div>
@@ -69,36 +68,38 @@
                     <div class="modal-header">
                         <h5 class="modal-title mb-3" id="">Задать вопрос</h5>
                         <div class="row">
-                            <div class="col col-sm-10 col-xl-6">
+                            <div class="col col-sm-10 col-xl-8">
                                 <p class="font-text-thin">Вы можете задать любой вопрос и наш специалист ответит вам в
                                     ближайшее время</p>
                             </div>
                         </div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true"><img src="/img/close.png" alt=""></span>
                         </button>
                     </div>
                
                 <form>
                     <div class="modal-body px-3 px-sm-5">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
                                 <div class="form-group">
                                     <label for="" class="col-form-label col-form-label-sm">Имя</label>
                                     <input type="text" class="form-control form-control-sm" id="" required="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="" class="col-form-label col-form-label-sm">Номер телефона</label>
-                                    <input type="text" class="form-control form-control-sm" id="" required="">
-                                </div>
+                                </div>                              
+                            </div> 
+                            <div class="col-sm-12">
+                                    <div class="form-group">
+                                            <label for="" class="col-form-label col-form-label-sm">Номер телефона</label>
+                                            <input type="text" class="form-control form-control-sm" placeholder=""  type="text" id="phone2" required="">
+                                        </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="form-group ">
-                                    <label for="" class="col-form-label col-form-label-sm">Ваш вопрос</label>
-                                    <textarea name="" class="form-control form-control-sm" rows="6" id="" required=""></textarea>
-                                </div>
-                            </div>
-                        </div>
+                            <div class="col-sm-12">
+                                    <div class="form-group ">
+                                        <label for="" class="col-form-label col-form-label-sm">Ваш вопрос</label>
+                                        <textarea name="" class="form-control form-control-sm" rows="6" id="" required=""></textarea>
+                                    </div>
+                                </div>                                                 
+                        </div>                        
     
                         <div class="custom-control-checkbox custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="sogl" required="">

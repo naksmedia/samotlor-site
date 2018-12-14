@@ -82,50 +82,23 @@ p {
     }
 }
 
-.header__mail {
-    font-size: 14px;
-    color: #000;
-    font-weight: 400;
+.mail__box{
     float: right;
-
-    @media screen and (max-width: 380px) {
-        margin-bottom: 15px;
+    @media screen and (max-width: 576px) {
+        margin-top: 10px;
+      float: left;
     }
-
     @media screen and (max-width: 320px) {
-        margin-bottom: 15px;
-        float: left;
-        display: inline;
+        margin-top: 10px;
+      float: left;
     }
-
-    @media screen and (max-width: 365px) {
-        margin-bottom: 15px;
-    }
-
-    @media screen and (max-width: 365px) {
-        float: right;
-    }
-
-    a {
-        color: #414141;
-    }
+   
 }
 
-.header__mail__mob {
-    display: none;
+.header__mail{
+    color: #414141;
+    font-size: 14px;    
 
-    @media screen and (max-width: 768px) {
-        display: block;
-        font-size: 14px;
-        color: #000;
-        font-weight: 400;
-        float: left;
-        border-bottom: 1px solid #414141;
-
-        a {
-            color: #414141;
-        }
-    }
 }
 
 .button__zayavka {
@@ -137,7 +110,6 @@ p {
     background: transparent;
     padding: 0px 15px;
     width: 100%;
-
     &:hover {
         background-color: rgba(91, 164, 221, 0.1);
     }
@@ -320,13 +292,12 @@ p {
         color: #888888;;
         border-bottom: 1px solid #888888;
     }
-}
+}   
 
 .footer__adres {
     font-size: 12px;
     color: #888888;
-    font-weight: 500;
-    margin-bottom: 10px;
+    font-weight: 500;    
 }
 
 .adres__on__map {
@@ -665,6 +636,9 @@ p {
     font-weight: 300;
     color: #8d8d8d;
     margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .box__news__content__main:hover{
