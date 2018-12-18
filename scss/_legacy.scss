@@ -697,6 +697,132 @@ p {
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
 }
 
+// Новости (внутри)
+.header__news{
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+}
+.img__box__news{
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+.small__text__news{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.news__naks__tag__inside{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.news__naks__tag__inside a{
+    font-size: 14px;
+    margin-top: 25px;  
+    background-color: transparent;
+    border-radius: 55px;
+    border: 1px solid #3164a2;
+    padding: 5px 15px;
+    width: 70px;
+    color: #3164a2;
+    &:hover{
+        background-color: rgba(188, 218, 255, 0.1);
+    }
+}
+.date__news__inside{
+font-size: 14px;
+font-weight: 400;
+color: #000;
+margin-bottom: 15px;
+}
+
+.vkontakte {
+    background-color: #0288d1;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    &:hover{
+        background-color: #027abb;
+    }
+}
+
+
+.googlepluse {
+    background-color: #f4511e;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    &:hover{
+        background-color: #dd481b;
+    }
+}
+
+
+.twitter {
+    background-color: #03a9f4;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    &:hover{
+        background-color: #0b8bc7;
+    }
+}
+
+
+.facebook {
+    background-color: #3f51b5;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: #3647a7;
+    }
+}
+
+.to__share{
+margin-bottom: 25px;
+}
+
+.line__news__end{
+    border: 0.5px solid #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 25px;    
+}
+.prikrep__doc{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.soglashenie__button {
+    background-color: transparent;
+    border: none;   
+    padding: 0;
+    margin-bottom: 25px;    
+}
+
+.soglashenie__button__text {
+    border: 1px #4c74c4 solid;
+    padding: 10px 15px;
+    display: block;
+    font-size: 14px;
+    color: #4c74c4;
+    border-radius: 3px;
+    &:hover{
+        color: #4c74c4;
+    }
+}
+
+.download__icon {
+    margin-left: 10px;
+}
+
+.soglashenie__button__text:hover {
+    background-color: rgba(76, 116, 196,0.1);
+}
+
 /*--------------------- Блок 4 Инфо-блок ---------------------*/
 
 
@@ -1014,11 +1140,6 @@ p {
     }
 }
 
-// .box__info__specialist{
-//     background-color: #fbfbfb;
-//     padding: 25px;
-// }
-
 .header__box__info {
     font-size: 22px;
     font-weight: 400;
@@ -1083,20 +1204,147 @@ p {
     margin-top: 15px;
 }
 
-.cok__text{
-    font-size: 16px;    
+.cok__text {
+    font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.8;
     margin-top: 15px;
 }
 
-.line__text__cok{
+.line__text__cok {
     border-bottom: 1px #dddddd solid;
     margin-top: 25px;
-    
+
 }
 
-.profstandart__text{
-font-size: 20px;
-font-weight: 400;
+.profstandart__text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+// О компании
+
+.o__kompanyi__block {
+    background-color: #f9f9f9;
+    margin-bottom: 35px;
+}
+
+
+.header__kompani {
+    font-size: 28px;
+    font-weight: 450;
+    margin-bottom: 15px;
+}
+
+
+.kompani__white__box {
+    background-color: #fff;
+    padding: 45px;
+}
+
+.box__cok__dopusk {
+    background-color: #2e3f62;
+    padding: 25px;
+    width: 450px;
+    float: right;
+}
+
+.box__kompanyi__block {
+    background-color: transparent;
+}
+
+.box__cok__dopusk__text {
+    color: #fff;
+    font-size: 16px;
+}
+
+.content__text__kompanyi {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.box__content__text__kompanyi {
+    margin-top: 35px;
+    padding: 35px;
+    background-color: #fcfcfc;
+}
+
+
+.content__box__list {
+    background: rgba(251, 251, 218, 0.2);
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.content__box__list__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #404040;
+    line-height: 2;
+}
+
+.header__content__zayavka {
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.box__kompanyi__block__right {
+    padding: 35px;
+}
+
+.zayavki__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.zayavki__text:hover {
+    color: #3d70ff;
+    transition: 0.2s;
+}
+
+.block__zayavok {
+    margin-bottom: 15px;
+}
+
+.line__content__right__block {
+    border: 0.5px solid #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header__rules__attestation {
+    font-size: 16px;
+    font-weight: 450;
+    color: #585858;
+    margin-bottom: 15px;
+}
+
+.rules__attestion {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.box__yellow_bg_two {
+    padding: 25px;
+    background-color: rgba(251, 251, 218, 0.8);
+    margin-bottom: 25px;
+}
+
+.small__line__rules {
+    border: 0.5px solid #dbdbdb;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line__kompanyi__text {
+    border: 0.5px solid #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
 }
