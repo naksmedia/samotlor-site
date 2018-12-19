@@ -391,10 +391,9 @@ p {
       text-align: center; } }
   @media screen and (max-width: 1200px) {
     .head__information {
-      margin-top: 25px; } }
+      margin-top: 10px; } }
   @media screen and (max-width: 460px) {
     .head__information {
-      margin-top: 25px;
       margin-bottom: 15px; } }
 
 .info__text__item {
@@ -527,7 +526,7 @@ p {
   .text__content__news__main:hover {
     color: #3e5e8d; }
 
-.text__small {
+.text__small__news {
   font-size: 14px;
   font-weight: 300;
   color: #8d8d8d;
@@ -553,11 +552,11 @@ p {
   font-weight: 400;
   color: #000; }
 
-.news__naks__tag__inside {
+.news__tag__all-news {
   margin-top: 25px;
   margin-bottom: 10px; }
 
-.news__naks__tag__inside a {
+.news__tag__all-news a {
   font-size: 14px;
   margin-top: 25px;
   background-color: transparent;
@@ -565,9 +564,25 @@ p {
   border: 1px solid #3164a2;
   padding: 5px 15px;
   width: 70px;
-  color: #3164a2; }
-  .news__naks__tag__inside a:hover {
+  color: #3164a2;
+  margin-bottom: 5px; }
+  .news__tag__all-news a:hover {
     background-color: rgba(188, 218, 255, 0.1); }
+
+.page-link {
+  color: #2e3e60;
+  font-size: 14px;
+  border-radius: 0px; }
+
+.page-item {
+  border-radius: 0px; }
+
+.page-link:hover {
+  transition: 0.2s; }
+
+.page-link:focus {
+  outline: none;
+  box-shadow: none; }
 
 .date__news__inside {
   font-size: 14px;
@@ -641,7 +656,22 @@ p {
 .soglashenie__button__text:hover {
   background-color: rgba(76, 116, 196, 0.1); }
 
-/*--------------------- Блок 4 Инфо-блок ---------------------*/
+.header__all-news {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000; }
+  .header__all-news:hover {
+    color: #4c74c4; }
+
+.news__tag__inside__nolink {
+  font-size: 14px;
+  color: #313131;
+  background-color: #f0f0f0;
+  border-radius: 55px;
+  padding: 5px 15px;
+  margin-top: 25px;
+  width: 150px; }
+
 .info__block {
   margin-bottom: 60px; }
 
@@ -691,7 +721,8 @@ p {
 .feedback__text {
   border-bottom: 1px solid #5ba4dd;
   color: #5ba4dd;
-  font-weight: 550; }
+  font-weight: 550;
+  text-transform: uppercase; }
 
 .feedback__text:hover {
   color: #6db5ec; }
@@ -953,6 +984,11 @@ p {
   font-weight: 450;
   margin-bottom: 15px; }
 
+.header__kompani__small {
+  font-size: 22px;
+  font-weight: 450;
+  margin-bottom: 15px; }
+
 .kompani__white__box {
   background-color: #fff;
   padding: 45px; }
@@ -1042,6 +1078,129 @@ p {
 .line__kompanyi__text {
   border: 0.5px solid #ebebeb;
   margin-top: 25px;
+  margin-bottom: 25px; }
+
+.header__political {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  margin-top: 25px; }
+
+.political__text__small {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.header__prostandart {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 35px; }
+
+.header__utverjdenie__standarti {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.box__profstandart {
+  padding: 45px;
+  background-color: #fff;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  margin-bottom: 15px;
+  max-width: 75%; }
+  @media screen and (max-width: 1199px) {
+    .box__profstandart {
+      max-width: 100%; } }
+
+.box__profstandart:hover {
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09); }
+
+.head__standart {
+  font-size: 18px;
+  font-weight: 450;
+  color: #747474; }
+
+.name__standart {
+  font-size: 18px;
+  font-weight: 450;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.number__standart {
+  font-size: 14px;
+  font-weight: 550;
+  color: #000000; }
+
+.text__prikaz__standart {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 15px; }
+
+.button__download__document {
+  background-color: #5ba4dd;
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.button__viev__document {
+  border: 1px solid #5ba4dd;
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #465f92;
+  font-size: 16px;
+  display: block;
+  text-align: center; }
+
+.button__download__document:hover {
+  background-color: #428ac2;
+  color: #fff;
+  transition: 0.2s; }
+
+.button__viev__document:hover {
+  background-color: #539ad1;
+  color: #fff;
+  transition: 0.2s; }
+
+.tel {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 5px; }
+
+.tel__right {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-left: 15px; }
+  @media screen and (max-width: 1199px) {
+    .tel__right {
+      margin: 0; } }
+
+.header__tag {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 15px;
+  margin-top: 15px; }
+
+.mail {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a1a1a1; }
+
+.ya__map {
   margin-bottom: 25px; }
 
 .menu__background {
@@ -1328,6 +1487,263 @@ hr {
   margin-bottom: 10px;
   margin-top: 5px;
   font-weight: 500; }
+
+.header__form__subject {
+  margin-bottom: 20px; }
+
+.reestr__box {
+  background-color: #f9f9f9;
+  margin-bottom: 30px; }
+
+.header__reestr__sasv {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px; }
+
+.personal__cok__acst__text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 25px; }
+
+.cok__name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5ba4dd;
+  margin-bottom: 15px; }
+
+.header__name__selected__reestr {
+  font-size: 28px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 5px; }
+
+.box__search__subject__form {
+  padding: 35px;
+  background-color: #fafafa;
+  border-radius: 3px;
+  margin-bottom: 15px; }
+  @media screen and (max-width: 1199px) {
+    .box__search__subject__form {
+      margin-bottom: 15px; } }
+
+.header__text__search__subject {
+  font-size: 20px;
+  font-weight: 500;
+  color: #696969;
+  margin-bottom: 20px; }
+
+.header__form__fio {
+  font-size: 14px;
+  text-transform: uppercase; }
+
+label[for=search__subject__restr] {
+  font-size: 16px; }
+
+label[for=search__work__subject] {
+  font-size: 16px; }
+
+.form__subject__search {
+  border-radius: 3px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  width: 100%;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 15px; }
+
+.form__subject__search:focus {
+  border: 1px solid #2e3f62;
+  transition: 0.2s;
+  color: #2e3f62; }
+
+label[for=type__of__viev] {
+  font-size: 16px; }
+
+#type__of__viev {
+  border-radius: 3px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  width: 100%;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  padding: 0.7rem;
+  cursor: pointer;
+  margin-bottom: 15px; }
+
+#type__of__viev:focus {
+  border: 1px solid #2e3f62;
+  transition: 0.2s;
+  color: #2e3f62; }
+
+.header__subject__list {
+  padding: 25px 25px;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  margin-bottom: 15px; }
+
+.name__list {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000; }
+
+button:focus {
+  outline: none; }
+
+.click__named__list {
+  font-size: 14px;
+  font-weight: 300;
+  color: #5ba4dd;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  box-shadow: none;
+  outline: none;
+  font-weight: 500;
+  padding: 0; }
+
+.click__named__list:hover {
+  color: #1f5e8f;
+  transition: 0.2s; }
+
+.card {
+  margin-bottom: 10px;
+  border: none; }
+
+.card-header {
+  border-radius: 3px;
+  border: 1px solid rgba(234, 240, 243, 0.5);
+  cursor: pointer; }
+
+.card-header:hover {
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09); }
+
+.additional__information {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  text-align: left;
+  padding: 0; }
+
+.card-body {
+  background-color: #f0f0f0;
+  padding: 25px; }
+
+.header__additional__information__list {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px; }
+
+.subtitle__additional__information__list {
+  font-size: 14px;
+  font-weight: 550;
+  color: #5ba4dd; }
+
+.subtitle__additional__information__list__no-work {
+  font-size: 14px;
+  font-weight: 550;
+  color: #ff5757;
+  text-decoration: underline; }
+
+.number__list__found__subject {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e3e60;
+  margin-top: 15px; }
+  @media screen and (max-width: 20px) {
+    .number__list__found__subject {
+      float: left; } }
+
+.number__list {
+  margin-top: 15px; }
+  @media screen and (max-width: 320px) {
+    .number__list {
+      float: left; } }
+
+.page-link {
+  color: #3c86be; }
+
+.page-link:hover {
+  transition: 0.2s; }
+
+.page-link:focus {
+  box-shadow: none;
+  outline: none; }
+
+.deploy__more {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 450;
+  color: #3c86be;
+  cursor: pointer;
+  margin-top: 10px; }
+
+.extract__form__svarshik {
+  padding: 35px;
+  background-color: transparent;
+  border: none;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 400;
+  color: #1d5a88;
+  text-align: left;
+  margin-bottom: 15px; }
+  .extract__form__svarshik p:hover {
+    margin-left: 10px;
+    transition: 0.2s; }
+  @media screen and (max-width: 1199px) {
+    .extract__form__svarshik {
+      width: 100%; } }
+
+.extract__form__svarshik a {
+  color: #1d5a88; }
+
+.extract__form__svarshik:hover {
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09); }
+
+.reestr__link__naks {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px; }
+
+.line__text__one__reestr {
+  border: 0.5px solid #ebebeb;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.button__search__document {
+  border: none;
+  padding: 7px 35px;
+  border-radius: 3px;
+  background-color: #5ba4dd;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  cursor: pointer; }
+
+.button__search__document:hover {
+  background-color: #3c86be; }
+
+@media screen and (max-width: 1199px) {
+  .date__po {
+    display: none; } }
+
+.date__po__mob {
+  display: none; }
+
+@media screen and (max-width: 1199px) {
+  .date__po__mob {
+    display: block; } }
 
 @media screen and (max-width: 320px) {
   .header__logo__center {

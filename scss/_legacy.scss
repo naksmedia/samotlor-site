@@ -502,11 +502,10 @@ p {
     }
 
     @media screen and (max-width: 1200px) {
-        margin-top: 25px;
+        margin-top: 10px;
     }
 
-    @media screen and (max-width: 460px) {
-        margin-top: 25px;
+    @media screen and (max-width: 460px) {      
         margin-bottom: 15px;
     }
 
@@ -632,10 +631,8 @@ p {
 .news__naks__tag__maine {
     font-size: 14px;
     color: #313131;
-    margin-bottom: 20px;
-    // border: 1px solid #cccccc;
+    margin-bottom: 20px;    
     background-color: #f0f0f0;
-    ;
     border-radius: 55px;
     padding: 5px 15px;
 }
@@ -683,7 +680,7 @@ p {
     }
 }
 
-.text__small {
+.text__small__news {
     font-size: 14px;
     font-weight: 300;
     color: #8d8d8d;
@@ -691,6 +688,7 @@ p {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+   
 }
 
 .box__news__content__main:hover {
@@ -714,12 +712,12 @@ p {
     color: #000;
 }
 
-.news__naks__tag__inside{
+.news__tag__all-news{
     margin-top: 25px;
     margin-bottom: 10px;
 }
 
-.news__naks__tag__inside a{
+.news__tag__all-news a{
     font-size: 14px;
     margin-top: 25px;  
     background-color: transparent;
@@ -728,10 +726,34 @@ p {
     padding: 5px 15px;
     width: 70px;
     color: #3164a2;
+    margin-bottom: 5px;
     &:hover{
         background-color: rgba(188, 218, 255, 0.1);
     }
 }
+
+
+.page-link{
+    color: #2e3e60;
+    font-size: 14px;
+    border-radius: 0px;
+    
+}
+
+.page-item {
+border-radius: 0px;
+}
+
+.page-link:hover{
+    transition: 0.2s;
+}
+
+.page-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
 .date__news__inside{
 font-size: 14px;
 font-weight: 400;
@@ -823,7 +845,29 @@ margin-bottom: 25px;
     background-color: rgba(76, 116, 196,0.1);
 }
 
-/*--------------------- Блок 4 Инфо-блок ---------------------*/
+// Все новости (список)
+.header__all-news{
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+    &:hover{
+        color: #4c74c4;
+    }
+}
+
+.news__tag__inside__nolink{
+    font-size: 14px;
+    color: #313131;   
+    background-color: #f0f0f0;
+    border-radius: 55px;
+    padding: 5px 15px;
+    margin-top: 25px;
+    // margin-bottom: 5px;
+    width: 150px;  
+}
+
+
+//  Инфоблок 
 
 
 .info__block {
@@ -891,6 +935,7 @@ margin-bottom: 25px;
     border-bottom: 1px solid #5ba4dd;
     color: #5ba4dd;
     font-weight: 550;
+    text-transform: uppercase;
 }
 
 .feedback__text:hover {
@@ -1237,6 +1282,12 @@ margin-bottom: 25px;
 }
 
 
+.header__kompani__small {
+    font-size: 22px;
+    font-weight: 450;
+    margin-bottom: 15px;
+}
+
 .kompani__white__box {
     background-color: #fff;
     padding: 45px;
@@ -1348,3 +1399,151 @@ margin-bottom: 25px;
     margin-bottom: 25px;
 
 }
+
+// Политика конфинденциальности
+
+.header__political{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000;
+    margin-top: 25px;
+}
+
+.political__text__small{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+// Профстандарты
+.header__prostandart {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+.header__utverjdenie__standarti {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.box__profstandart {
+    padding: 45px;
+    background-color: #fff;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    max-width: 75%;
+
+    @media screen and (max-width: 1199px) {
+        max-width: 100%;
+    }
+}
+
+.box__profstandart:hover {
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+}
+
+.head__standart {
+    font-size: 18px;
+    font-weight: 450;
+    color: #747474;
+}
+
+.name__standart {
+    font-size: 18px;
+    font-weight: 450;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.number__standart {
+    font-size: 14px;
+    font-weight: 550;
+    color: #000000;
+}
+
+.text__prikaz__standart {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.button__download__document {
+    background-color: #5ba4dd;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.button__viev__document {
+    border: 1px solid #5ba4dd;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #465f92;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+.button__download__document:hover {
+    background-color: #428ac2;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.button__viev__document:hover {
+    background-color: #539ad1;
+    color: #fff;
+    transition: 0.2s;
+}
+
+// Контакты
+
+.tel {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.tel__right {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    @media screen and (max-width: 1199px) {
+       margin: 0;
+    }
+}
+
+.header__tag {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.mail {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a1a1a1;
+}
+
+.ya__map {
+    margin-bottom: 25px;
+}   
