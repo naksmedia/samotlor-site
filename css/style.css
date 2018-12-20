@@ -1012,6 +1012,15 @@ p {
   color: #000;
   margin-bottom: 15px; }
 
+.content__text__kompanyi__col-vo {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding: 10px; }
+
 .box__content__text__kompanyi {
   margin-top: 35px;
   padding: 35px;
@@ -1202,6 +1211,57 @@ p {
 
 .ya__map {
   margin-bottom: 25px; }
+
+.header__doc {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 10px; }
+
+.doc__name__list {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000; }
+
+.doc__content {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #fbfbfb;
+  padding: 25px;
+  border-radius: 3px;
+  border-left: 2px solid #eeeeee; }
+  .doc__content:hover {
+    background-color: #f5f5f5;
+    transition: 0.2s;
+    border-left: 2px solid #275295;
+    margin-right: 10px; }
+
+.doc__name {
+  position: relative;
+  font-size: 15px;
+  color: #275295;
+  padding-left: 55px; }
+
+.doc__name::before {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 0;
+  background: url(/img/icon__file-01.png) center 0 no-repeat; }
+
+.result__box {
+  background-color: #fde6e6;
+  border-left: 5px solid #ff3c3c;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.header__result {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 15px; }
 
 .menu__background {
   background-color: #fff;
