@@ -55,14 +55,25 @@ p {
     .head__text__numbercok__two {
       text-align: center; } }
 
-.acst {
-  color: #d4d4d4;
-  font-size: 14px;
-  font-weight: 600; }
+.list__acst__center {
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: #cacaca;
+  font-weight: 400; }
+  .list__acst__center:focus {
+    box-shadow: none;
+    outline: none; }
 
-.acst:hover {
-  color: #a0a0a0;
-  text-decoration: none; }
+.dropdown-menu {
+  margin-top: 15px;
+  border-radius: 3px;
+  color: #fff;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+  line-height: 2;
+  border: none; }
 
 /*--------------------- header ---------------------*/
 .header__block__two {
@@ -133,7 +144,6 @@ p {
 .button__system__edo:active {
   background-color: #488cc0; }
 
-/*--------------------- Footer ---------------------*/
 .footer__box {
   background-color: #333333;
   padding: 45px 0px 45px 0px; }
@@ -284,7 +294,23 @@ p {
   background-color: #4a94cc;
   color: #fff; }
 
-/*--------------------- БГ + информация ---------------------*/
+.box__spks__logo__footer {
+  padding: 55px; }
+  @media screen and (max-width: 992px) {
+    .box__spks__logo__footer {
+      padding: 0;
+      margin-bottom: 15px; } }
+
+.spks__web {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 68px; }
+  .spks__web a {
+    color: #fff; }
+    .spks__web a:hover {
+      color: #d4d4d4; }
+
 .sasp__logo {
   margin-bottom: 25px;
   font-size: 16px; }
@@ -1262,6 +1288,58 @@ p {
   font-size: 18px;
   font-weight: 400;
   margin-left: 15px; }
+
+.header__table {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000; }
+  @media screen and (max-width: 576px) {
+    .header__table {
+      margin-top: 15px; } }
+
+.line__table {
+  border-bottom: 1px #bebebe solid;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.name__table {
+  font-size: 14px;
+  font-weight: 450;
+  color: #5ba4dd; }
+  @media screen and (max-width: 576px) {
+    .name__table {
+      margin-top: 15px; } }
+
+.info__table {
+  font-size: 12px;
+  font-weight: 450;
+  text-transform: uppercase; }
+  @media screen and (max-width: 576px) {
+    .info__table {
+      margin-top: 15px; } }
+
+.header__table__box {
+  padding: 15px 25px;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.header__table__box__two {
+  padding: 10px 25px;
+  border: 1px solid  #f7f7f7;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .header__table__box__two:hover {
+    border: 1px solid  #bbe0fd; }
+
+.header__table__name {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 10px; }
 
 .menu__background {
   background-color: #fff;
