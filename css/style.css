@@ -68,7 +68,6 @@ p {
     outline: none; }
 
 .dropdown-menu {
-  margin-top: 15px;
   border-radius: 3px;
   color: #fff;
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
@@ -1115,6 +1114,12 @@ p {
   margin-top: 25px;
   margin-bottom: 25px; }
 
+.bd-sidebar__two {
+  position: sticky;
+  top: 4rem;
+  z-index: 1000;
+  height: calc(135vh - 4rem); }
+
 .header__political {
   font-size: 18px;
   text-transform: uppercase;
@@ -1260,8 +1265,7 @@ p {
   .doc__content:hover {
     background-color: #f5f5f5;
     transition: 0.2s;
-    border-left: 2px solid #275295;
-    margin-right: 10px; }
+    border-left: 2px solid #275295; }
 
 .doc__name {
   position: relative;
@@ -1276,6 +1280,12 @@ p {
   height: 45px;
   left: 0;
   background: url(/img/icon__file-01.png) center 0 no-repeat; }
+
+.bd-sidebar {
+  position: sticky;
+  top: 4rem;
+  z-index: 1000;
+  height: calc(30vh - 4rem); }
 
 .result__box {
   background-color: #fde6e6;
